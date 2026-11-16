@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# ✊ Rock Paper Scissors – React Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun and interactive Rock Paper Scissors game developed using React.js. Play against the computer, make your moves, and compete to get the highest score!
 
-## Available Scripts
+## 📌 Project Overview
 
-In the project directory, you can run:
+Rock Paper Scissors is a classic hand game recreated as a web application using React.js. Users can choose Rock, Paper, or Scissors, while the computer generates a random move. The application compares both choices and displays the game result.
 
-### `npm start`
+## 🎯 Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- To develop an interactive web application using React.js.
+- To understand React components and state management.
+- To implement game logic using JavaScript.
+- To create a simple and user-friendly interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Key Features
 
-### `npm test`
+- **Three Game Options:** Choose Rock, Paper, or Scissors.
+- **Computer Opponent:** Computer randomly selects its move.
+- **Scoreboard:** Tracks user and computer scores.
+- **Instant Results:** Displays the result of each round.
+- **Play Again:** Restart the game easily.
+- **Interactive UI:** Simple and attractive game interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| JavaScript | Game logic |
+| HTML5 | Page structure |
+| CSS3 | Styling and layout |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎮 Game Rules
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Rock beats Scissors.
+- Scissors beats Paper.
+- Paper beats Rock.
+- If both choose the same option, it's a draw.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Installation & Setup
 
-### `npm run eject`
+Follow these steps to run the project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone this repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   `git clone https://github.com/aiva-11/Rock-Paper-Scissors-React.git`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   `cd Rock-Paper-Scissors-React`
 
-## Learn More
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   `npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
 
-### Code Splitting
+   `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Open your browser and visit:
 
-### Analyzing the Bundle Size
+   `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📂 Project Structure
 
-### Making a Progressive Web App
+```text
+Rock-Paper-Scissors-React/
+│
+├── public/
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📚 Learning Outcomes
 
-### Advanced Configuration
+- Understanding React.js fundamentals.
+- Working with JavaScript functions and conditions.
+- Implementing random computer choices.
+- Managing game scores and results.
+- Designing interactive web interfaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👩‍💻 Developed By
 
-### Deployment
+**Aishwarya S**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+GitHub: [aiva-11](https://github.com/aiva-11)
 
-### `npm run build` fails to minify
+## ⭐ Acknowledgement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed as a hands-on learning experience to improve frontend development and JavaScript programming skills.
