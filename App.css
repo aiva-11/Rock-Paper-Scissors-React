@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  position: relative;
+}
+
+.game-container {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 550px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.score h2 {
+  font-size: 38px;
+  color: #facc15;
+}
+
+.score p {
+  margin-top: 5px;
+}
+
+.choose {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.buttons button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  background: white;
+  color: #243b55;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background: #facc15;
+  transform: translateY(-4px);
+}
+
+.result-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 15px;
+  line-height: 2;
+}
+
+.result-box h2 {
+  color: #facc15;
+  margin-top: 10px;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #facc15;
+  color: #141e30;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: white;
+}
+
+@media (max-width: 480px) {
+  .game-container {
+    padding: 22px 15px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  .buttons button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
